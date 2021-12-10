@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	max-width: 1620px;
+	/* max-width: 1620px; */
 	margin: 0 auto;
 	font-family: 'Lato';
 	font-style: normal;
@@ -39,8 +39,9 @@ img {
 /* Pop up offer section start */
 
 .pop-up-offer {
-	padding: 14px 0;
+	padding: 14px 0 13px;
 	background-color: #FAFAFA;
+	border-bottom: 1px solid #EBEBEB;
 }
 
 .pop-up-offer__container {
@@ -98,6 +99,7 @@ img {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 50px;
 }
 
 .header__logo {
@@ -123,12 +125,13 @@ img {
 .header__catalog-menu-text {}
 
 .header__search-field {
-	width: 647px;
+	width: 649px;
 	height: 48px;
 	background: url(../img/svg/search-icon.svg) no-repeat right 16px center transparent;
 	border: 1px solid #E7E7E7;
 	border-radius: 4px;
 	padding: 16px;
+	padding-right: 44px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -139,7 +142,39 @@ img {
 .header__tools {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 24px;
+	/* gap: 24px; */
+}
+
+.header__tools-link{
+	text-decoration: none;
+	margin-right: 24px;
+}
+
+.header__tools-link:last-child{
+	margin-right: 0;
+}
+
+.header__tools-link:first-child{
+	margin-right: 4px;
+}
+
+.header__list-value {
+	position: relative;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #F63529;
+	color: white;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 50%;
+	top:-13px;
+	left: -10px;
+	order: 11;
 }
 
 .header__tools-separator {
@@ -155,10 +190,7 @@ img {
 /* Menu section start */
 
 .menu {
-	padding: 8px;
-}
-
-.menu__wrapper {
+	/* padding: 8px; */
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px;
@@ -174,7 +206,8 @@ img {
 /* Sales slider section start */
 
 .sales-section {
-	height: 515px;
+	height: 481px;
+	background-color: lightblue;
 }
 
 /* Sales slider section end */
@@ -183,6 +216,7 @@ img {
 
 .brands-slider {
 	height: 169px;
+	background-color: lightgreen;
 }
 
 /* Brands slider section end */
@@ -316,12 +350,12 @@ footer {
 	/* align-items: center; */
 }
 
-.footer__logo{
+.footer__logo {
 	width: 120px;
 	height: 50px;
 }
 
-.footer__email{
+.footer__email {
 	text-decoration: none;
 	color: grey;
 }
