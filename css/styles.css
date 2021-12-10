@@ -101,8 +101,8 @@ img {
 }
 
 .header__logo {
-	/* width: 111px; */
-	/* height: 46px; */
+	width: 111px;
+	height: 46px;
 	/* padding-top: 1px; */
 }
 
@@ -313,7 +313,17 @@ footer {
 	font-size: 14px;
 	line-height: 160%;
 	justify-content: space-between;
-	/* aligign-items: center; */
+	/* align-items: center; */
+}
+
+.footer__logo{
+	width: 120px;
+	height: 50px;
+}
+
+.footer__email{
+	text-decoration: none;
+	color: grey;
 }
 
 /* Footer end */
