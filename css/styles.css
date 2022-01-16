@@ -77,7 +77,7 @@ img {
 	border: 0;
 }
 
-.pop-up-offer-close {
+.pop-up-offer__button-close {
 	position: absolute;
 	width: 18px;
 	height: 18px;
@@ -136,12 +136,6 @@ img {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
-.header__search-field::placeholder {
-	/* color: #9D9D9D; */
-}
-
 .header__search-button{
 	position: relative;
 	border: none;
@@ -159,15 +153,6 @@ img {
 .header__tools-link{
 	position: relative;
 	text-decoration: none;
-	/* width: 24px; */
-}
-
-.header__tools:last-child{
-	/* gap: 25px; */
-}
-
-.header__tools-link:first-child{
-	/* margin-right: 4px; */
 }
 
 .header__list-value {
@@ -196,10 +181,22 @@ img {
 
 /* Header section end */
 
+/* Catalogue popup section start */
+.catalogue-popup{
+	position: absolute;
+	background-color: white;
+	left: 0;
+	right: 0;
+	top: 174px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	padding: 32px 0;
+}
+/* Catalogue popup section end */
+
 /* Menu section start */
 
-.menu {
-	/* padding: 8px; */
+.menu__list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px;
@@ -213,12 +210,10 @@ img {
 /* Menu section end */
 
 /* Sales slider section start */
-
 .sales-section {
 	height: 481px;
 	background-color: lightblue;
 }
-
 /* Sales slider section end */
 
 /* Brands slider section start */
